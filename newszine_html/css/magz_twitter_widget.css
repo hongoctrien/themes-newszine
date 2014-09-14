@@ -1,0 +1,13 @@
+.widget_oauth_twitter_widget{ text-align: left; padding: 15px 0px 0px; list-style:none; }
+.magz-twitter-tweet{ margin: 0 0 10px; }
+#magz-twitter-widget-icon, #magz-twitter-widget-pic{ float: left; border: 0px; margin-right: 5px; }
+#magz-twitter-follow-link{ text-align: center; text-transform: uppercase; letter-spacing: 1px; font: 7pt/15pt arial; }
+.magz-twitter-tweet-time{ font: 9pt/12pt arial; color: #999999; margin-bottom: 10px; }
+img.twit-pic {
+    display: block;
+    float: left;
+    margin-right: 3%;
+	position: relative;
+	top: 5px;
+    width: auto;
+}

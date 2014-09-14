@@ -1,0 +1,80 @@
+/* 
+ * Slider Full Size 
+ * ================ */
+/* Variables */
+/* Colors */
+/* Mixins */
+
+#newszine-slider {
+	margin-bottom: 25px;
+}
+	#newszine-slider .slides .flex-caption {
+		position: absolute;
+		top: 40%;
+		left: 50%;
+	}
+    #newszine-slider .slides .flex-caption h1 {
+		margin:0;
+		color: white;
+		font-size: 30px;
+		font-weight:normal;
+		padding: 0 60px 0 0px;
+		margin-left:15px;
+		line-height:50px;
+		position: relative;
+	}
+	#newszine-slider .slides .flex-caption h1:after{
+		content:'';
+		position:absolute;
+		height:100%;
+		width:15px;
+		background:#81B752;
+		right:100%;
+		top:0;
+	}
+	#newszine-slider .slides .flex-caption h1 span{
+		background: #81B752;
+		padding: 5px 20px 6px 0;
+		white-space: pre-wrap;
+		position:relative;
+	}
+	
+    #newszine-slider .slides .flex-caption .post-meta {
+      background: white;
+      color: #272727;
+      padding: 5px 18px;
+      display: inline-block;
+      font-weight: bold; }
+    #newszine-slider .slides .flex-caption .morelink {
+      background: #2c393f;
+      color: white;
+      padding: 10px 20px;
+      display: inline-block;
+      margin-top: 22px;
+      font-weight: bold; }
+    #newszine-slider .slides .post-label {
+      position: absolute;
+      top: 0;
+      right: 0; }
+  #newszine-slider .flex-control-nav {
+    bottom: 24px;
+    display: block;
+    left: 0;
+    right: 0; }
+    .page-template-templateshome-layout-4-php #newszine-slider .flex-control-nav {
+      left: auto !important;
+      right: 0;
+      bottom: 10px;
+      right: 15px; }
+    #newszine-slider .flex-control-nav li {
+      margin: 0 3px; }
+      #newszine-slider .flex-control-nav li a {
+        width: 15px;
+        height: 15px; }
+        #newszine-slider .flex-control-nav li a.flex-active {
+          background: #fff;
+          box-shadow: none; }
+
+#newszine-slider .flex-caption span.author{
+	text-transform: capitalize;
+}

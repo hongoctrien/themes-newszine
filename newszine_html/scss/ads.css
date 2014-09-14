@@ -1,0 +1,15 @@
+/*
+* Ads
+* ============ */
+.ads-slot {
+	text-align: center;
+	margin: 0 auto;
+}
+
+a.advertise-link {
+  background: #3d4c54;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 15px 0;
+  margin-bottom: 30px; }

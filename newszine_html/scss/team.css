@@ -1,0 +1,37 @@
+.teams {
+  border-top: 1px solid #ff0000;
+  border-bottom: 1px solid #ff0000; }
+  .teams:after, .teams:before {
+    content: '';
+    display: block;
+    clear: both; }
+
+.team {
+  border-bottom: 1px solid #e0e3e5;
+  padding-bottom: 32px;
+  margin-bottom: 48px;
+  width: 370px;
+  max-width: 100%;
+  float: left; }
+  .team:nth-child(even) {
+    margin-left: 30px; }
+  .team header {
+    clear: right; }
+    .team header img {
+      float: left;
+      margin-right: 37px; }
+    .team header div {
+      display: inline; }
+    .team header:after, .team header:before {
+      content: '';
+      display: block;
+      clear: both; }
+  .team ul.social-profiles {
+    list-style: none;
+    margin-left: 0; }
+    .team ul.social-profiles li {
+      float: left; }
+    .team ul.social-profiles:after, .team ul.social-profiles:before {
+      content: '';
+      display: block;
+      clear: both; }

@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Newszine - HTML Template Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Newszine&rdquo; Documentation by &ldquo;minimalthemes&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Newszine -  HTML Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 28/04/2014<br>
+					By: <a href="http://themeforest.net/user/minimalthemes">minimalthemes</a><br>
+					Email: <a href="mailto:support@puriwp.com">Email me</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing this item, supporting our work. Please do not forget to rate our product.<br>
+			    We would be happy to see your comments and stars.</p>
+		  </div>
+	  </div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#cssFiles">HTML Structure</a></li>
+			<li><a href="#javascript">CSS Structure</a></li>
+			<li><a href="#psdFiles">Javascripts</a></li>
+			<li><a href="#other">Other details</a></li>
+			<li><a href="#htmlStructure">Uploading Template</a></li>
+			<li><a href="#used">Credits</a></li>
+			</ol>
+		
+		<hr>
+
+		<h3 id="cssFiles"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>
+			Magazine is XHTML Strict template. It's made with Twitter Bootstrap CSS framework.  Almost every layout styling is covered by Bootstrap unless some layout that generally Bootstrap can't do.
+			This theme is a fluid layout with two columns. The general template structure is the same throughout the template. Here is the general structure.
+		</p>
+		
+		<h2>Navigation</h2>
+		<hr/>
+		<p>Site navigation is found in <code>&lt;nav class="navbar navbar-inverse clearfix nobot"&gt;</code>. To create main menu items, add list elements with class nav. To add a submenu item create child list item with class &quot;dropdown-menu&quot; and don't forget to add &quot;dropdown&quot; class to parent list item.</p>
+		
+		<h2>Header</h2>
+		<hr/>
+		<img style="margin: 0 0 10px" src="assets/images/header.jpg" alt="HTML Sructure" />
+		<p>
+			<code>&lt;header id="header" class="container"&gt;</code> contains the site logo and navigation bar. Editing <em>#logo</em>  you can easily change the home link and the logo image.</p>
+
+	  <h3 id="javascript"><strong>B) CSS Structure</strong> - <a href="#toc">top</a></h3>
+		
+		<p>
+        	The following css files are used in every template html and php files. They can be found in the HEAD section of the page. Style.css is the template css file, the others are twitter bootstrap and the styles require for each template feature.
+        <pre>
+&lt;link rel='stylesheet' id='flexslider-css'  href='css/flexslider.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='bootstrap-css'  href='css/bootstrap.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='bootstrap-responsive-css'  href='css/bootstrap-responsive.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='simplyscroll-css'  href='css/jquery.simplyscroll.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='jPages-css'  href='css/jPages.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='ie-styles-css'  href='css/ie.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='font-awesome-css'  href='libraries/font-awesome/css/font-awesome.min.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='prettyPhoto-css'  href='libraries/pretty-photo/css/prettyPhoto.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='magz-style-css'  href='style.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='woocommerce_frontend_styles-css'  href='wc/woocommerce.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='post-ratings-css'  href='css/post-ratings.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='main-header-css'  href='scss/main-header.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='main-slider-css'  href='scss/slider.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='layout-1-css'  href='scss/layout1.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='ads-css'  href='scss/ads.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='footer-css'  href='scss/footer.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='video-css'  href='scss/video.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='social-css'  href='scss/social.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='shop-css'  href='scss/shop.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='team-css'  href='scss/team.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='style-responsive-css'  href='scss/style.responsive.css' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='Roboto-css'  href='http://fonts.googleapis.com/css?family=Roboto%3Anormal%2Citalic%2C100%2C100italic%2C300%2C300italic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&#038;ver=3.8.3' type='text/css' media='all' /&gt;
+
+            </pre>
+        </p>
+	  <ul>
+		<li><strong>style.css</strong> - Main CSS for template, all main styles are here.</li>
+		<li>
+			<strong>css/</strong>
+			<ul>
+				<li><strong>flexslider-css</strong> - Default styling for slider </li>
+				<li><strong>bootstrap.css</strong> - Default styling for all basic HTML elements by Twitter Bootstrap</li>
+				<li><strong>bootstrap.reponsive.css</strong> - Default styling to control HTML elements in various screen width by Twitter Bootstrap</li>
+				<li><strong>jquery.simplyscroll.css</strong> - Default styling of scrolling news </li>
+			</ul>
+		</li>
+		
+		</ul>
+
+		<hr>
+		
+		<h3 id="psdFiles"><strong>C) Javascripts</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This template requires the following javascript files. You should place them in every template html files. </p>
+		<p><img src="assets/images/js1.jpg" alt="JS File" ></p>
+        <p><img src="assets/images/js.jpg" alt="JS File" ></p>
+		<p><strong>Gallery page</strong> requires  more js file to control the photo lightbox.</p>
+        <p><img src="assets/images/gallery-js.jpg" alt="Gallery" ></p>
+        <p><strong>Contact page</strong> requires more js file to set a Google map. </p>
+        <p><img src="assets/images/map-js.jpg" alt="Map"</p>
+  <hr>
+		
+		
+		<h3 id="other"><strong>E) Other Details </strong> - <a href="#toc">top</a></h3>
+		<p>This template include php file (contact.php) that will process the contact form in contact.html.</p>
+		<p><img src="assets/images/contact-php.jpg" alt="Contact"</p>
+		<hr>
+		
+		
+		
+		<h3 id="htmlStructure"><strong>F) Uploading Template</strong> - <a href="#toc">top</a></h3>
+		<p>Best way to upload template is if you use FTP program. I strongly recomment you to use <a href="http://filezilla-project.org/">Filezilla</a></p>
+		<p>Filezilla is available for PC and Mac and it's easy to use. We assume that you already have hosting, so open filezilla, login and find "public_html" folder. On some servers it is called "www" folder...that's folder where you need to upload all files</p>
+		<hr>
+		
+		
+		
+		<h3 id="htmlStructure"><strong>G) Credits and Sources</strong> - <a href="#toc">top</a></h3>
+		<p>During template development i used those javascript and graphic files:</p>
+		
+		<ul>
+			<li><a href="http://getbootstrap.com/2.3.2/">Twitter Bootstrap</a></li>
+			<li><a href="http://flexslider.woothemes.com/">Flexslider</a></li>
+			<li><a href="http://bxslider.com/">BXSlider</a></li>
+			<li><a href="http://www.fyneworks.com/jquery/star-rating/">fyneworks</a></li>
+			<li><a href="http://www.sunsean.com/idTabs/">idTabs</a></li>
+			<li><a href="http://logicbox.net/jquery/simplyscroll/">simplyscroll</a></li>
+			<li><a href="http://luis-almeida.github.io/jPages/">jPages</a></li>
+			<li><a href="https://github.com/mattbryson/TouchSwipe-Jquery-Plugin">TouchSwipe</a></li>
+			<li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">prettyPhoto</a></li>
+		</ul>
+		
+		<hr>
+		<p class="append-bottom alt large"><strong>minimalthemes</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

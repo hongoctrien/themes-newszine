@@ -1,0 +1,6 @@
+.social-counter ul li {
+  width: 24.6%; }
+  .social-counter ul li:first-child {
+    border-left: none; }
+  .social-counter ul li:last-child {
+    border-right: none; }

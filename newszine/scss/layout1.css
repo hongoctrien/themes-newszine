@@ -1,0 +1,138 @@
+/*
+* Layout 1
+* ============ */
+/* Colors */
+body {
+  color: #777c7e; }
+
+/* Repeatable Element */
+.post-section {
+  margin-bottom: 35px; }
+
+.section-heading {
+  color: #3d4c54;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px; }
+  .layout-2 .section-heading, .section-heading.text-left {
+    text-align: left; }
+    .layout-2 .section-heading span, .section-heading.text-left span {
+      padding: 0 20px 0 0; }
+  .shop-widget .section-heading {
+    background: #73777b url("../images/line-fill.png") center left repeat-x !important; }
+  .section-heading span {
+    background: white;
+    padding: 0 20px; }
+    .shop-widget .section-heading span {
+      color: #73777b; }
+    .layout-2 .section-heading span {
+      padding: 0 20px 0 0; }
+	.section-heading.fill-bg {
+		background: #73777b url("../images/line-fill.png") center left repeat-x;
+		font-size:20px;
+		color:#51565b;
+	}
+  .featured-products .section-heading, .top-products .section-heading {
+    background-color: #3d4c54;
+    margin-bottom: 36px; }
+
+#sidebar .posts .in-widget {
+  margin-left: 23px !important; }
+  #sidebar .posts .in-widget:first-child {
+    margin-left: 0 !important; }
+
+.post.half {
+  width: 759px; }
+.post.one-six {
+  width: 14.88% !important; }
+  .post.one-six h1.title {
+    line-height: 20px;
+    font-size: 15px; }
+  #sidebar .post.one-six {
+    width: 172.5px; }
+.post.one-two {
+  width: 572px;
+  margin-left: 0;
+  margin-right: 25px !important; }
+  .post.one-two:nth-child(2) {
+    margin-right: 0px !important; }
+.post.width472 {
+  width: 472px; }
+.post.width270 {
+  width: 269.5px;
+  float: none;
+  margin-left: 0;
+  margin-right: 0; }
+.post .content-entry-right {
+  width: 363px; }
+.post.pinterest-style {
+  width: auto; }
+  .post.pinterest-style .post-thumbnail {
+    margin-bottom: 3px; }
+
+.posts .post-thumbnail {
+  margin-bottom: 15px; }
+  .posts .post-thumbnail img {
+    width: 100%;
+    /* Width 100% */
+    height: auto; }
+  .posts .post-thumbnail span.post-label {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .posts .post-thumbnail .post-content {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+    .posts .post-thumbnail .post-content .entry {
+      background: rgba(217, 223, 226, 0.9);
+      padding: 25px; }
+    .posts .post-thumbnail .post-content .post-meta {
+      font-size: 12px;
+      display: inline-block;
+      margin-left: 25px;
+      padding: 12px;
+      background: #3d4c54;
+      color: #a2adb4; }
+.posts .img-left {
+  width: 373px;
+  float: left; }
+
+#main-pinterest-style .ads-section .ads970-90 {
+  margin-bottom: 40px; }
+
+/*
+.latest-by-reviews{
+	.posts{ 
+		.post{
+			width: $post-item-width / 2 - 13;
+		}
+	}	
+}
+*/
+.new-from-random-post .column1, .post-cols .column1 {
+  width: 771px;
+  float: left; }
+  .new-from-random-post .column1 .column1-left, .post-cols .column1 .column1-left {
+    float: left;
+    width: 373px; }
+  .new-from-random-post .column1 .column1-right, .post-cols .column1 .column1-right {
+    float: right;
+    width: 373px; }
+.new-from-random-post .column2, .post-cols .column2 {
+  float: left;
+  width: 373px;
+  margin-left: 25px; }
+.new-from-random-post .post, .post-cols .post {
+  width: 173.5px;
+  margin-left: 0;
+  margin-right: 25px; }
+  .new-from-random-post .post:first-child, .post-cols .post:first-child {
+    margin-left: 0; }
+  .new-from-random-post .post:nth-child(2n+2), .post-cols .post:nth-child(2n+2) {
+    margin-right: 0; }
+.new-from-random-post .full-content-width, .post-cols .full-content-width {
+  width: 373px; }
+
+/* Responsive */
